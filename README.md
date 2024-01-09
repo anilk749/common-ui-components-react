@@ -5,8 +5,8 @@ A lightweight and efficient React project starter setup using Vite. Kickstart yo
 ## Getting Started
 
 1. Clone the repository.
-2. Install dependencies with npm install.
-3. Start the development server with npm run dev.
-4. Build for production with npm run build.
+2. Install dependencies with ```bash npm install```.
+3. Start the development server with ```bash npm run dev```.
+4. Build for production with ```bash npm run build```.
 
 

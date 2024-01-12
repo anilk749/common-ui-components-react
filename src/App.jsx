@@ -1,18 +1,18 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import Accordian from "./components/Accordian";
 
 function App() {
-  const [count, setCount] = useState(0)
   return (
     <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <div className="m-20">
+        <Accordian title="Accordian 1" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quae error eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quae error eaque." />
+        <Accordian title="Accordian 2" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quae error eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quae error eaque." />
+        <Accordian title="Accordian 3" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quae error eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quae error eaque." />
+        
+        
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
